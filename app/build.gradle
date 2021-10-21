@@ -42,6 +42,7 @@ dependencies {
 
     implementation "se.ansman.kotshi:api:$kotshi"
     kapt "se.ansman.kotshi:compiler:$kotshi"
+    implementation "javax.annotation:javax.annotation-api:1.3.2"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
